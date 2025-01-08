@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: backstage-demo
   description: An example deployment of a Backstage application.
+  annotations: 
+    jenkins.io/job-full-name: 'Jenkins-CICD-pipeline'
 spec:
   type: website
   owner: guests
