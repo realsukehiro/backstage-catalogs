@@ -9,7 +9,4 @@ spec:
   type: website
   owner: guests
   lifecycle: experimental
-backend:
-  database:
-    client: sqlite3
-    connection: ':memory:'
+
